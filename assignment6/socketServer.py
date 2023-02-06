@@ -9,4 +9,4 @@ s.listen(5)
 while True:
     clientsocket, address = s.accept()
     #print("A message from CS361!")
-    clientsocket.send(bytes("A message from CS361", "utf-8"))
+    #clientsocket.send(bytes("A message from CS361", "utf-8"))
